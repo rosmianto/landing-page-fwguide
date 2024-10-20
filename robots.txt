@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://fwguide.rosmianto.com/sitemap.xml
