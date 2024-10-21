@@ -3,7 +3,7 @@
     <title>Firmware Development Workflow Guide</title>
     <link href="https://fwguide.rosmianto.com/feed.xml" rel="self" />
     <link href="https://fwguide.rosmianto.com" />
-    <updated>2024-10-20T14:40:48+07:00</updated>
+    <updated>2024-10-21T08:28:42+07:00</updated>
     <author>
         <name>rosmianto</name>
     </author>
@@ -17,15 +17,15 @@
         <link href="https://fwguide.rosmianto.com/achieve-pro-level-firmware-with-an-easy-proven-workflow.html"/>
         <id>https://fwguide.rosmianto.com/achieve-pro-level-firmware-with-an-easy-proven-workflow.html</id>
 
-        <updated>2024-10-20T14:40:48+07:00</updated>
+        <updated>2024-10-21T08:28:42+07:00</updated>
             <summary>
                 <![CDATA[
-                    Concise guide to improve your confusing firmware development practices. Learn tons of fundamental concepts of firmware development so you can say: "AHA! That's how I actually build firmware!" Hello, I'm a senior embedded engineer and I've worked in multiple industries (semiconductor, e-commerce, consumer electronics, mining,&hellip;
+                    The concise guide to improve your confusing firmware development practices. Learn tons of fundamental concepts of firmware development so you can say: "AHA! That's how I actually build firmware!" Hello, I'm a senior embedded engineer and I've worked in multiple industries (semiconductor, e-commerce, consumer electronics,&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p class="align-center">Concise guide to improve your confusing firmware development practices.<br>Learn tons of fundamental concepts of firmware development so you can say:<br>"<strong>AHA! That's how I actually build firmware!</strong>"</p>
+                <p class="align-center">The concise guide to improve your confusing firmware development practices.<br>Learn tons of fundamental concepts of firmware development so you can say:<br>"<strong>AHA! That's how I actually build firmware!</strong>"</p>
 <p data-pm-slice="1 1 []">Hello, I'm a senior embedded engineer and I've worked in multiple industries (semiconductor, e-commerce, consumer electronics, mining, marine, automotive, and aerospace) since 2016. I'm also an embedded freelancer from 2021.</p>
 <p><strong>In this guide, I've distilled the techniques and workflow I use daily to develop firmware for many of my clients</strong>. Learn how to do firmware development in the real world.</p>
 <p><strong>Okay, first of all. What is workflow? Why would you need to adopt a good workflow to develop firmware?</strong></p>
@@ -59,7 +59,11 @@
 <p>Workflow is a set of practices you adopt, to maintain high clarity on the entire development cycle.</p>
 <p>This guide shows you my workflow, so you can freely steal it and apply it to your circumstances.</p>
 <p data-pm-slice="1 1 []">If you want to get a preview chapter. You can <a href="https://rosmianto.notion.site/A-Professional-Guide-to-Firmware-Development-Preview-Only-aae6e23b76634734b78515859c38ef3c?pvs=4" target="_blank" rel="noopener noreferrer">access it for free here</a>.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://fwguide.rosmianto.com/media/posts/1/fwguide-shadow-shots.drawio.png" alt="" width="1412" height="1012" sizes="100vw" srcset="https://fwguide.rosmianto.com/media/posts/1/responsive/fwguide-shadow-shots.drawio-xs.png 300w ,https://fwguide.rosmianto.com/media/posts/1/responsive/fwguide-shadow-shots.drawio-sm.png 480w ,https://fwguide.rosmianto.com/media/posts/1/responsive/fwguide-shadow-shots.drawio-md.png 768w ,https://fwguide.rosmianto.com/media/posts/1/responsive/fwguide-shadow-shots.drawio-lg.png 1024w ,https://fwguide.rosmianto.com/media/posts/1/responsive/fwguide-shadow-shots.drawio-xl.png 1360w ,https://fwguide.rosmianto.com/media/posts/1/responsive/fwguide-shadow-shots.drawio-2xl.png 1600w"></figure>After you learn the techniques and framework outlined in the guide. You should be able to build firmware that:</p>
+<figure class="post__image post__image--center" ><img loading="lazy" src="https://fwguide.rosmianto.com/media/posts/1/fwguide-shadow-shots.drawio.png" alt="" width="1412" height="1012" sizes="100vw" srcset="https://fwguide.rosmianto.com/media/posts/1/responsive/fwguide-shadow-shots.drawio-xs.png 300w ,https://fwguide.rosmianto.com/media/posts/1/responsive/fwguide-shadow-shots.drawio-sm.png 480w ,https://fwguide.rosmianto.com/media/posts/1/responsive/fwguide-shadow-shots.drawio-md.png 768w ,https://fwguide.rosmianto.com/media/posts/1/responsive/fwguide-shadow-shots.drawio-lg.png 1024w ,https://fwguide.rosmianto.com/media/posts/1/responsive/fwguide-shadow-shots.drawio-xl.png 1360w ,https://fwguide.rosmianto.com/media/posts/1/responsive/fwguide-shadow-shots.drawio-2xl.png 1600w">
+<figcaption >Preview of Notion Pages</figcaption>
+</figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://fwguide.rosmianto.com/media/posts/1/fwguide-shadow-shots-ebook.drawio-3.png" alt="" width="502" height="429" sizes="100vw" srcset="https://fwguide.rosmianto.com/media/posts/1/responsive/fwguide-shadow-shots-ebook.drawio-3-xs.png 300w ,https://fwguide.rosmianto.com/media/posts/1/responsive/fwguide-shadow-shots-ebook.drawio-3-sm.png 480w ,https://fwguide.rosmianto.com/media/posts/1/responsive/fwguide-shadow-shots-ebook.drawio-3-md.png 768w ,https://fwguide.rosmianto.com/media/posts/1/responsive/fwguide-shadow-shots-ebook.drawio-3-lg.png 1024w ,https://fwguide.rosmianto.com/media/posts/1/responsive/fwguide-shadow-shots-ebook.drawio-3-xl.png 1360w ,https://fwguide.rosmianto.com/media/posts/1/responsive/fwguide-shadow-shots-ebook.drawio-3-2xl.png 1600w"></figure>
+<p data-pm-slice="1 1 []">After you learn the techniques and framework outlined in the guide. You should be able to build firmware that:</p>
 <ul>
 <li>
 <p>Easier to add features</p>
@@ -99,20 +103,23 @@
 <div class="pricing-subtitle"><strong>PDF Only</strong></div>
 <div class="price"><strong>$15 <span class="vat">+VAT</span></strong></div>
 <ul class="price-details">
+<li><s>Complete Notion Pages</s></li>
 <li>PDF version of the guide</li>
 <li>Free lifetime updates</li>
 </ul>
-<button class="buy-button">Buy &gt;</button></div>
+<p><a href="https://embedded.lemonsqueezy.com/buy/5431e856-6aa6-4670-897e-5cd53c6b57b7" class="btn buy-button">Buy &gt;</a></p>
+</div>
 <div class="pricing-box">
 <div class="pricing-title"><strong>The Complete Package</strong></div>
 <div class="pricing-subtitle"><strong>PDF + Notion Pages</strong></div>
 <div class="price"><strong>$20 <span class="vat">+VAT</span></strong></div>
 <ul class="price-details">
-<li>Complete Notion Pages containing all material (including bonus video demo)</li>
+<li>Complete Notion Pages</li>
 <li>PDF version of the guide</li>
 <li>Free lifetime updates</li>
 </ul>
-<button class="buy-button">Buy &gt;</button></div>
+<p><a href="https://embedded.lemonsqueezy.com/buy/66162ad1-3914-4276-9c26-a389bdd15068" class="btn buy-button">Buy &gt;</a></p>
+</div>
 </div>
 <h1 class="align-center" data-pm-slice="1 1 []"><strong>FAQ</strong></h1>
 <p><strong>Is this a video course?</strong></p>
